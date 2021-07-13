@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## `v2021_07_13`
+* `update appcenter-cli to 1.9.0`
+
 ## `v2021_07_09`
 * `update Flutter to 2.2.3`
 * `update Android commandline tools to 7302050`

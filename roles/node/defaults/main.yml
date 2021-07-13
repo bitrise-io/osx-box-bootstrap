@@ -5,4 +5,4 @@ npm_packages:
   - name: "cordova"
     version: "9.0.0"
   - name: "appcenter-cli"
-    version: "2.7.3"
+    version: "2.9.0"
