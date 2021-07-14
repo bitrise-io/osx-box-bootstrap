@@ -76,16 +76,11 @@ workflows:
   #######################
   ci:
     steps:
-    # - script-runner:
-    #     title: Check changes
-    #     run_if: .IsCI
-    #     inputs:
-    #     - file_path: _scripts/check_changes.sh
-    # - script-runner:
-    #     title: Install ansible-lint and yamllint
-    #     run_if: .IsCI
-    #     inputs:
-    #     - file_path: _scripts/install_linters.sh
+    - script-runner:
+        title: Check changes
+        run_if: .IsCI
+        inputs:
+        - file_path: _scripts/check_changes.sh
     - script:
         title: Validate bitrise.yml
         inputs:
